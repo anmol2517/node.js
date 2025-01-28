@@ -48,8 +48,6 @@ Summary
 - Blocking operations : Delegated to the "Thread Pool", processed by workers, then the response is returned to the Event Loop.  
 - Node.js achieves high scalability by handling non-blocking tasks efficiently and delegating blocking tasks appropriately.  
 
-
-
 --- 
 
 This flow ensures that Node.js can handle multiple requests concurrently without being blocked by any single operation.
