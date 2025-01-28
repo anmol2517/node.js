@@ -12,7 +12,6 @@ Node.js supports both synchronous and asynchronous programming models. Understan
 - Simple to understand but can lead to performance issues for I/O-heavy tasks.
 
 ### Example (Sync File Read)
-```javascript
 const fs = require('fs');
 
 const data = fs.readFileSync('file.txt', 'utf8');
