@@ -2,18 +2,18 @@
 
 Here’s a concise GitHub README for **Sync vs Async in Node.js**:
 
-```markdown
-# Sync vs Async in Node.js
+```
+Sync vs Async in Node.js
 
 Node.js supports both synchronous and asynchronous programming models. Understanding their differences is crucial for writing efficient and scalable applications.
 
-## **Synchronous (Sync)**
+Synchronous (Sync)
 
 - Executes code sequentially, one operation at a time.
-- Blocks further execution until the current task completes.
+- Blocks further execution until the current task is completed.
 - Simple to understand but can lead to performance issues for I/O-heavy tasks.
 
-### Example (Sync File Read)
+Example (Sync File Read)
 ```javascript
 const fs = require('fs');
 
@@ -31,7 +31,7 @@ console.log('File read complete!');
 - Uses callbacks, promises, or `async/await` for handling results.
 
 ### Example 1 (Async File Read with Callback)
-```javascript
+```
 const fs = require('fs');
 
 fs.readFile('file.txt', 'utf8', (err, data) => {
@@ -42,7 +42,7 @@ console.log('File reading in progress...');
 ```
 
 ### Example 2 (Async with Promises)
-```javascript
+```
 const fs = require('fs').promises;
 
 fs.readFile('file.txt', 'utf8')
@@ -52,7 +52,7 @@ console.log('File reading in progress...');
 ```
 
 ### Example 3 (Async with `async/await`)
-```javascript
+```
 const fs = require('fs').promises;
 
 async function readFile() {
@@ -92,4 +92,3 @@ console.log('File reading in progress...');
 - [Node.js Documentation](https://nodejs.org/en/docs/)
 - [MDN Web Docs - Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - [MDN Web Docs - Async/Await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
-```
