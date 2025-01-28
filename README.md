@@ -12,7 +12,7 @@ Node.js supports both synchronous and asynchronous programming models. Understan
 - Simple to understand but can lead to performance issues for I/O-heavy tasks.
 
 ### Example (Sync File Read)
-```
+```javascript
 const fs = require('fs');
 
 const data = fs.readFileSync('file.txt', 'utf8');
@@ -29,7 +29,7 @@ console.log('File read complete!');
 - Uses callbacks, promises, or `async/await` for handling results.
 
 ### Example 1 (Async File Read with Callback)
-```
+```javascript
 const fs = require('fs');
 
 fs.readFile('file.txt', 'utf8', (err, data) => {
@@ -40,7 +40,7 @@ console.log('File reading in progress...');
 ```
 
 ### Example 2 (Async with Promises)
-```
+```javascript
 const fs = require('fs').promises;
 
 fs.readFile('file.txt', 'utf8')
@@ -50,7 +50,7 @@ console.log('File reading in progress...');
 ```
 
 ### Example 3 (Async with `async/await`)
-```
+```javascript
 const fs = require('fs').promises;
 
 async function readFile() {
@@ -90,6 +90,5 @@ console.log('File reading in progress...');
 - [Node.js Documentation](https://nodejs.org/en/docs/)
 - [MDN Web Docs - Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - [MDN Web Docs - Async/Await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
-
 
 
