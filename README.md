@@ -1,17 +1,17 @@
 Here’s a concise GitHub README for **Sync vs Async in Node.js**:
 
 ```markdown
--- Sync vs Async in Node.js
+• Sync vs Async in Node.js
 
 Node.js supports both synchronous and asynchronous programming models. Understanding their differences is crucial for writing efficient and scalable applications.
 
--- Synchronous (Sync)
+• Synchronous (Sync)
 
 - Executes code sequentially, one operation at a time.
 - Blocks further execution until the current task completes.
 - Simple to understand but can lead to performance issues for I/O-heavy tasks.
 
--- Example (Sync File Read)
+• Example (Sync File Read)
 
 const fs = require('fs');
 
