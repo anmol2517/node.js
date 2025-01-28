@@ -2,7 +2,7 @@ Here's a simplified explanation of how Node.js works based on your description, 
 
 ---
 How Node.js Works
-Node.js operates on a **single-threaded event loop** model with a **non-blocking I/O** architecture. Here’s how it handles client requests:
+Node.js operates on a "single-threaded event loop" model with a "non-blocking I/O" architecture. Here’s how it handles client requests:
 
 ---
 
