@@ -3,7 +3,8 @@ Here’s a concise GitHub README for **Sync vs Async in Node.js**:
 ```markdown
 • Sync vs Async in Node.js
 
-Node.js supports both synchronous and asynchronous programming models. Understanding their differences is crucial for writing efficient and scalable applications.
+Node.js supports both synchronous and asynchronous programming models.
+Understanding their differences is crucial for writing efficient and scalable applications.
 
 • Synchronous (Sync)
 
