@@ -1,4 +1,4 @@
-Here’s a concise GitHub README for **Sync vs Async in Node.js**:
+**Sync vs Async in Node.js**
 
 ```markdown
 • Sync vs Async in Node.js
@@ -23,7 +23,7 @@ console.log('File read complete!');
 
 ---
 
-## **Asynchronous (Async)**
+### Asynchronous (Async)
 
 - Non-blocking execution allows the program to perform other tasks while waiting for an operation to complete.
 - Ideal for I/O operations, database queries, etc.
