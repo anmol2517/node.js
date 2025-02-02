@@ -118,4 +118,3 @@ const url = require('url');
 const myUrl = new URL('https://www.example.com/pathname/?search=test#hash');
 console.log(myUrl.hostname);
 ```
-- This streamlined version is ready for a GitHub README file.
