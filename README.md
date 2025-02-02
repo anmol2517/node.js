@@ -29,7 +29,7 @@ console.log('File read complete!');
 - Ideal for I/O operations, database queries, etc.
 - Uses callbacks, promises, or `async/await` for handling results.
 
-### Example 1 (Async File Read with Callback)
+**Example 1 (Async File Read with Callback)**
 ```javascript
 const fs = require('fs');
 
@@ -40,7 +40,7 @@ fs.readFile('file.txt', 'utf8', (err, data) => {
 console.log('File reading in progress...');
 ```
 
-### Example 2 (Async with Promises)
+**Example 2 (Async with Promises)**
 ```javascript
 const fs = require('fs').promises;
 
@@ -50,7 +50,7 @@ fs.readFile('file.txt', 'utf8')
 console.log('File reading in progress...');
 ```
 
-### Example 3 (Async with `async/await`)
+**Example 3 (Async with `async/await`)**
 ```javascript
 const fs = require('fs').promises;
 
@@ -69,7 +69,7 @@ console.log('File reading in progress...');
 
 ---
 
-## **Key Differences**
+### Key Differences
 
 | Feature           | Synchronous                 | Asynchronous                 |
 |--------------------|-----------------------------|------------------------------|
@@ -79,14 +79,14 @@ console.log('File reading in progress...');
 
 ---
 
-## **When to Use?**
+### When to Use..?
 
 - **Synchronous**: Simple scripts or tasks where blocking is acceptable.
 - **Asynchronous**: Real-world applications requiring high concurrency (e.g., servers, APIs).
 
 ---
 
-## **References**
+### References
 
 - [Node.js Documentation](https://nodejs.org/en/docs/)
 - [MDN Web Docs - Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
@@ -106,12 +106,12 @@ cd my-url-repo
 npm init -y
 ```
 
-## **Install the URL module with npm**
+### Install the URL module with npm
 ```javascript
 npm install url
 ```
 
-## **Create an index.js file with the following code:**
+### Create an index.js file with the following code
 ```javascript
 const url = require('url');
 
