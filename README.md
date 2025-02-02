@@ -93,3 +93,29 @@ console.log('File reading in progress...');
 - [MDN Web Docs - Async/Await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
 
 
+# My URL Module Project
+
+## Setup Instructions
+
+### 1. Initialize Node.js Project
+Run the following commands to create a project folder and initialize it:
+
+```bash
+mkdir my-url-repo
+cd my-url-repo
+npm init -y
+```
+
+## **Install the URL module with npm**
+```javascript
+npm install url
+```
+
+## **Create an index.js file with the following code:**
+```javascript
+const url = require('url');
+
+const myUrl = new URL('https://www.example.com/pathname/?search=test#hash');
+console.log(myUrl.hostname);
+```
+- This streamlined version is ready for a GitHub README file.
