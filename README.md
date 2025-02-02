@@ -89,9 +89,6 @@ console.log('File reading in progress...');
 ### References
 
 - [Node.js Documentation](https://nodejs.org/en/docs/)
-- [MDN Web Docs - Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
-- [MDN Web Docs - Async/Await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Promises)
-
 
 # My URL Module Project
 
@@ -118,3 +115,6 @@ const url = require('url');
 const myUrl = new URL('https://www.example.com/pathname/?search=test#hash');
 console.log(myUrl.hostname);
 ```
+
+### References
+- https://nodejs.org/docs/latest/api/url.html
