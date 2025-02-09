@@ -1,4 +1,4 @@
-**Sync vs Async in Node.js**
+### **Sync vs Async in Node.js**
 
 ```markdown
 • Sync vs Async in Node.js
@@ -90,7 +90,7 @@ console.log('File reading in progress...');
 
 - [Node.js Documentation](https://nodejs.org/en/docs/)
 
-# My URL Module Project
+### My URL Module Project
 
 ## Setup Instructions
 
