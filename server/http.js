@@ -27,12 +27,6 @@
     Connect :
     >> When we want to establish a connection to a server
 
-    Link :
-    >> When we want to link related resources
-
-    Unlink :
-    >> When we want to unlink related resources
-
     Purge :
     >> When we want to purge a resource
 
@@ -51,18 +45,6 @@
     Mkcol :
     >> When we want to create a new collection
 
-    Move :
-    >> When we want to move a resource
-
-    Copy :
-    >> When we want to copy a resource
-
-    Lock :
-    >> When we want to lock a resource
-
-    Unlock :
-    >> When we want to unlock a resource
-
     Subordinate :
     >> When we want to create a subordinate resource
 
@@ -72,35 +54,10 @@
     Propertyupdate :
     >> When we want to update properties of a resource
 
-    Rebind :
-    >> When we want to rebind a resource
-
-    Notify :
-    >> When we want to notify a resource
-
-    Subscribe :
-    >> When we want to subscribe to a resource
-
-    Unsubscribe :
-    >> When we want to unsubscribe from a resource
-
-    Searchres :
-    >> When we want to search for a resource
-
     Autoreplay :
     >> When we want to automatically reply to a resource
 
-    Mergepatch :
-    >> When we want to merge and patch resources
-
     Mergeforcepatch :
     >> When we want to merge and force-patch resources
-*//*
-    Get
-    Post
-    Put
-    Patch
-    Delete
-*/
 
-console.log()
+*/
