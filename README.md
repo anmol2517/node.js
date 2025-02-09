@@ -110,9 +110,9 @@ const myUrl = new URL('https://www.example.com/pathname/?search=test#hash');
 console.log(myUrl.hostname);
 ```
 ------
-# Node.js HTTP Methods and Architecture
+------
 
-## HTTP Methods in Node.js
+## HTTP Methods and Architecture
 
 Node.js supports various HTTP methods when handling requests in a server application. Below are the commonly used methods:
 
@@ -124,7 +124,7 @@ Node.js supports various HTTP methods when handling requests in a server applica
 - **OPTIONS**: Retrieve information about the communication options for the target resource.
 - **HEAD**: Retrieve response headers without the response body.
 
-### Example of Handling HTTP Methods in Node.js
+**Example of Handling HTTP Methods in Node.js**
 
 Using the built-in `http` module:
 
@@ -149,7 +149,7 @@ server.listen(3000, () => {
 });
 ```
 
-## Node.js Server Architecture
+### Node.js Server Architecture
 
 1. **Single-Threaded, Event-Driven**
 - Handles multiple requests asynchronously using the event loop.
@@ -173,6 +173,5 @@ app.delete('/', (req, res) => res.send('DELETE request'));
 
 app.listen(3000, () => console.log('Server running on port 3000'));
 ```
-
-This structure enhances modularity and scalability.
-
+------
+------
