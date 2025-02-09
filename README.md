@@ -90,9 +90,7 @@ console.log('File reading in progress...');
 
 - [Node.js Documentation](https://nodejs.org/en/docs/)
 
-### My URL Module Project
-
-## Setup Instructions
+### My URL Module Project - Setup Instructions
 
 ### 1. Initialize Node.js Project
 Run the following commands to create a project folder and initialize it:
