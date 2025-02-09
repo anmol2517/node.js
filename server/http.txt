@@ -1,0 +1,7 @@
+1739098914482: GET / - New request received
+1739098978656: GET / - Http Method request received
+1739098980244: GET / - Http Method request received
+1739098980449: GET / - Http Method request received
+1739099159563: GET / - Http Method request received
+1739099168733: GET /about - Http Method request received
+1739099193844: GET / - Http Method request received
