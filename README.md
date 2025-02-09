@@ -118,3 +118,70 @@ console.log(myUrl.hostname);
 
 ### References
 - https://nodejs.org/docs/latest/api/url.html
+
+# Node.js HTTP Methods and Architecture
+
+## HTTP Methods in Node.js
+
+Node.js supports various HTTP methods when handling requests in a server application. Below are the commonly used methods:
+
+- **GET**: Retrieve data from the server.
+- **POST**: Send data to the server.
+- **PUT**: Update existing data.
+- **DELETE**: Remove data from the server.
+- **PATCH**: Modify part of existing data.
+- **OPTIONS**: Retrieve information about the communication options for the target resource.
+- **HEAD**: Retrieve response headers without the response body.
+
+### Example of Handling HTTP Methods in Node.js
+
+Using the built-in `http` module:
+
+```javascript
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+    if (req.method === 'GET') {
+        res.writeHead(200, { 'Content-Type': 'text/plain' });
+        res.end('GET request received');
+    } else if (req.method === 'POST') {
+        res.writeHead(200, { 'Content-Type': 'text/plain' });
+        res.end('POST request received');
+    } else {
+        res.writeHead(405, { 'Content-Type': 'text/plain' });
+        res.end('Method Not Allowed');
+    }
+});
+
+server.listen(3000, () => {
+    console.log('Server running on port 3000');
+});
+```
+
+## Node.js Server Architecture
+
+1. **Single-Threaded, Event-Driven**
+- Handles multiple requests asynchronously using the event loop.
+- Non-blocking I/O operations improve performance.
+
+2. **Common Architectures**
+- **Monolithic**: Entire application runs as a single process.
+- **Microservices**: Application is broken into smaller services that communicate via APIs.
+- **MVC (Model-View-Controller)**: Separation of concerns for maintainability.
+
+3. **Using Express.js for Better Routing**
+
+```javascript
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => res.send('GET request')); 
+app.post('/', (req, res) => res.send('POST request'));
+app.put('/', (req, res) => res.send('PUT request'));
+app.delete('/', (req, res) => res.send('DELETE request'));
+
+app.listen(3000, () => console.log('Server running on port 3000'));
+```
+
+This structure enhances modularity and scalability.
+
