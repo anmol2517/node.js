@@ -1,4 +1,4 @@
-### **Sync vs Async in Node.js**
+### Sync vs Async in Node.js
 
 ```markdown
 • Sync vs Async in Node.js
@@ -69,7 +69,7 @@ console.log('File reading in progress...');
 
 ---
 
-### Key Differences
+#### Key Differences
 
 | Feature           | Synchronous                 | Asynchronous                 |
 |--------------------|-----------------------------|------------------------------|
@@ -79,20 +79,16 @@ console.log('File reading in progress...');
 
 ---
 
-### When to Use..?
+#### When to Use..?
 
 - **Synchronous**: Simple scripts or tasks where blocking is acceptable.
 - **Asynchronous**: Real-world applications requiring high concurrency (e.g., servers, APIs).
 
 ---
 
-### References
-
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-
 ### My URL Module Project - Setup Instructions
 
-### 1. Initialize Node.js Project
+**1. Initialize Node.js Project**
 Run the following commands to create a project folder and initialize it:
 
 ```bash
@@ -101,22 +97,19 @@ cd my-url-repo
 npm init -y
 ```
 
-### Install the URL module with npm
+**Install the URL module with npm**
 ```javascript
 npm install url
 ```
 
-### Create an index.js file with the following code
+**Create an index.js file with the following code**
 ```javascript
 const url = require('url');
 
 const myUrl = new URL('https://www.example.com/pathname/?search=test#hash');
 console.log(myUrl.hostname);
 ```
-
-### References
-- https://nodejs.org/docs/latest/api/url.html
-
+------
 # Node.js HTTP Methods and Architecture
 
 ## HTTP Methods in Node.js
