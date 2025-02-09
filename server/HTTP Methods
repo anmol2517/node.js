@@ -1,5 +1,3 @@
-/*
-
     Get : 
     >> When we want to get some data from the server
 
@@ -59,5 +57,3 @@
 
     Mergeforcepatch :
     >> When we want to merge and force-patch resources
-
-*/
