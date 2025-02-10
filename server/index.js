@@ -1,8 +1,5 @@
 const http = require("http");
 
-
-
-
 // handler function - to create a request listener name function
  
 const myServer = http.createServer((req, res) => {
