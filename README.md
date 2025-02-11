@@ -175,3 +175,66 @@ app.listen(3000, () => console.log('Server running on port 3000'));
 ```
 ------
 ------
+
+
+Here's a concise **GitHub README** for your Express.js project:  
+
+---
+
+# Express.js Basic Server  
+
+This is a simple **Express.js** server that handles basic routing.  
+
+## Why use Express.js?  
+- Minimal and flexible **Node.js** web framework.  
+- Simplifies handling **HTTP requests** and **routes**.  
+- Provides **middleware support** for request processing.  
+- Efficient and lightweight for **building APIs and web applications**.  
+
+## Code Explanation  
+```js
+const express = require("express"); // Import Express  
+
+const app = express(); // Create an Express instance  
+
+// Home route  
+app.get("/", (req, res) => {
+    return res.send("Hello From Home Page");
+});
+
+// About route  
+app.get("/about", (req, res) => {
+    return res.send("Hello From About Page");
+});
+
+// Dynamic route with query parameters  
+app.get("/main", (req, res) => {
+    return res.send(`Hello ${req.query.name} or Your Age is ${req.query.age}`);
+});
+
+// Start server on port 8011  
+app.listen(8011, () => console.log("Server running on port 8011"));
+```
+
+## Route Structure  
+- `app.METHOD(PATH, HANDLER)`  
+  - **app** → Express instance.  
+  - **METHOD** → HTTP method (GET, POST, etc.).  
+  - **PATH** → Route URL.  
+  - **HANDLER** → Function executed when the route is matched.  
+
+## Run the Server  
+```sh
+node index.js
+```
+Access in browser:  
+```
+http://localhost:8011/
+```
+or  
+```
+http://localhost:8011/main?name=anmol
+```
+
+---
+---
