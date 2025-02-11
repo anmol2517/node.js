@@ -1,36 +1,29 @@
-const http = require("http");
-const fs = require("fs");
-const url = require("url");
 const express = require("express");
+const app = express();
 
-function myHandler(req, res) {
-    const myServer = http.createServer((req, res) => {
-    const log = `${Date.now()}: ${req.method} ${req.url} - Http Method request received\n`;
-
-    console.log(req.headers);
-
-    fs.appendFile("http.txt", log, (err) => {
-        const myUrl = url.parse(req.url, true);
-
-        switch (myUrl.pathname) {
-            case "/":
-                if(req.method === "GET") res.end("HomePage");
-                break;
-
-            case "/about":
-                const username = myUrl.query.myname;
-                res.end(`hi, ${username}`);
-                break;
-
-            case "/search":
-                const search = myUrl.query.search_query;
-                 res.end("Here are your results for " + search);
-                break;
-        }
-    });
+app.get("/", (req, res) => {
+    return res.send("Hello From Home Page");
 });
-}
+
+app.get("/about", (req, res) =>{
+    return res.send("Hello From About Page");
+});
 
 
-const myServer = http.createServer(myHandler);
-myServer.listen(8011, () => console.log("Server running on port 8011"));
+app.get("/main", (req, res) =>{
+    return res.send(`Hello ${req.query.name}`); //http://localhost:8011/main?name=anmol
+});
+
+
+/*
+app.get("/main", (req, res) => {
+    console.log(req.query); 
+    const name = req.query.name || "Guest";
+    const age = req.query.age || "Unknown";
+    return res.send(`Hello ${name} or Your Age is ${age}`);
+});
+*/
+
+app.listen(8011, () => console.log("Server running on port 8011")); 
+
+
