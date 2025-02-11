@@ -176,25 +176,18 @@ app.listen(3000, () => console.log('Server running on port 3000'));
 ------
 ------
 
+# Express.js Server
 
-Here's a concise **GitHub README** for your Express.js project:  
 
----
-
-# Express.js Basic Server  
-
-This is a simple **Express.js** server that handles basic routing.  
-
-## Why use Express.js?  
+### Why use Express.js?  
 - Minimal and flexible **Node.js** web framework.  
 - Simplifies handling **HTTP requests** and **routes**.  
 - Provides **middleware support** for request processing.  
 - Efficient and lightweight for **building APIs and web applications**.  
 
-## Code Explanation  
+### Code Explanation  
 ```js
 const express = require("express"); // Import Express  
-
 const app = express(); // Create an Express instance  
 
 // Home route  
@@ -216,18 +209,18 @@ app.get("/main", (req, res) => {
 app.listen(8011, () => console.log("Server running on port 8011"));
 ```
 
-## Route Structure  
-- `app.METHOD(PATH, HANDLER)`  
+**Route Structure**
+- **`app.METHOD(PATH, HANDLER)`**
   - **app** → Express instance.  
   - **METHOD** → HTTP method (GET, POST, etc.).  
   - **PATH** → Route URL.  
   - **HANDLER** → Function executed when the route is matched.  
 
-## Run the Server  
+**Run the Server**
 ```sh
 node index.js
 ```
-Access in browser:  
+**Access in browser:**
 ```
 http://localhost:8011/
 ```
