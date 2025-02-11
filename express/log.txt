@@ -1,0 +1,53 @@
+File Name  -  package-json
+
+
+Express Version  -  ^4.21.2
+( ' 4th Version : 21st Bug Fix Release : 2nd Minor Release ' )
+
+
+1st Part  -  4   :   Major Release
+-  Major / Breaking Updates
+
+
+2nd Part  -  21  :   Middle Part
+-  Recommended Critical Bug Fix or Also Say That Security Fix and Adding Some Features.
+
+
+3rd Part  -  2   :   Last Part  
+-  Minor Fixes '|' It is a Optional Updates.
+
+
+/-------------------------------------------------------/
+
+
+^  :  Name of the symbol is  -  ( 'Caret Symbol' )
+Means  :  Compatible with version
+
+
+-  The caret (^) symbol in "package.json" allows npm to install minor updates and patches but prevents major version upgrades.
+
+-  Allowed updates: 4.x.x (e.g., 4.18.0, 4.19.1).
+
+-  Not allowed: 5.x.x (major version change).
+
+-  It ensures compatibility while allowing non-breaking updates.
+
+
+/-------------------------------------------------------/
+
+
+To install the latest version of Express, run:
+-  npm install express
+
+
+To install a specific version (e.g., 4.17.2), run:
+-  npm install express@4.17.2
+
+
+/-------------------------------------------------------/
+
+
+Express Version  -  ~4.21.2
+
+It is only change in Last Part ( '3rd Part' ) is Allowed.
+
