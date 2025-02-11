@@ -176,7 +176,7 @@ app.listen(3000, () => console.log('Server running on port 3000'));
 ------
 ------
 
-# Express.js Server
+## Express.js Server
 
 
 ### Why use Express.js?  
@@ -209,7 +209,7 @@ app.get("/main", (req, res) => {
 app.listen(8011, () => console.log("Server running on port 8011"));
 ```
 
-**Route Structure**
+### Route Structure
 - **`app.METHOD(PATH, HANDLER)`**
   - **app** → Express instance.  
   - **METHOD** → HTTP method (GET, POST, etc.).  
