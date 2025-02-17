@@ -5,13 +5,18 @@ app.get("/", (req, res) => {
     return res.send("Hello From Home Page");
 });
 
+
 app.get("/about", (req, res) =>{
     return res.send("Hello From About Page");
 });
 
 
 app.get("/main", (req, res) =>{
-    return res.send(`Hello ${req.query.name}`); //http://localhost:8011/main?name=anmol
+    return res.send(`Hello ${req.query.name}`);
+    
+    //http://localhost:8011/main?name=anmol
+
+    
 });
 
 
