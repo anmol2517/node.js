@@ -12,8 +12,8 @@ console.log("visual studio");   //  >>  Testing Command Step
 const result = fs.readFileSync("symbol.txt", "utf-8");
 console.log(result);
 
-console.log("tools and tech");   //  >>  Testing Command Step 
-
+?/  >>  Testing Command Step 
+console.log("tools and tech");   
 
 
 // Non - Blocking the Request
