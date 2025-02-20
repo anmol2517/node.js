@@ -37,13 +37,13 @@ Types of Requests :
 
 ---
 
-Thread Pool
+Thread Pool :
    - "libuv", the library that powers Node.js, manages a pool of threads (default size: 4).  
    - These threads handle blocking tasks so the main thread (Event Loop) remains free.
 
 ---
 
-Summary
+Summary :
 - Non-blocking operations: Processed directly by the Event Loop.  
 - Blocking operations : Delegated to the "Thread Pool", processed by workers, then the response is returned to the Event Loop.  
 - Node.js achieves high scalability by handling non-blocking tasks efficiently and delegating blocking tasks appropriately.  
