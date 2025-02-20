@@ -6,7 +6,7 @@ Node.js operates on a "single-threaded event loop" model with a "non-blocking I/
 
 ---
 
-Request Flow
+Request Flow :
 
 1. Client Request  
    - User 1 sends a request → It goes to the "Event Queue".
@@ -23,7 +23,7 @@ Request Flow
 
 ---
 
-Types of Requests
+Types of Requests :
 
 1. Non-Blocking Operations (Asynchronous)
    - Example: Database queries, file reads, API calls.  
