@@ -9,7 +9,6 @@ The client sends a request, and the server responds based on the request.
 There are certain rules and standards for this communication, which RESTful APIs provide.
 
 
-
 Communication Flow :
 
 ------------------------------------------------------------------------
