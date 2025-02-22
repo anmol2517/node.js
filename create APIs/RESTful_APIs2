@@ -1,0 +1,44 @@
+Suppose humare pass ek serer hai or ek client hai
+
+toh ye dono communicate kaise karte hai ?
+
+client ek request send karta hai or server respnse karta hai 
+
+toh kuch rules/standard hota hai toh wo muje restful apis deta hai
+
+
+------------------------------------------------------------------------
+
+SERVER        >>>>>>        CLIENT        >>>>>>        Response
+
+
+CLIENT        >>>>>>        SERVER        >>>>>>        Request
+
+------------------------------------------------------------------------
+
+
+Rule 1 - Server Client arhitecture pe work karta hai
+
+it means server or client both are differnent machine and dono ko ek dusre ke upar dependent nhi hona chaye.
+
+Example 
+GET request kiya (some blogs)
+
+Database me se blogs ko fetch kiya
+
+or usko html document me convert kar diye 
+
+send html document to you as a response
+
+html document hai usko bolte hai SSR (server side rendering)
+
+------------------------------------------------------------------------
+
+SERVER        >>>>>>        DATABASE        >>>>>>        Request
+
+
+DATABASE        >>>>>>        SERVER        >>>>>>        Response
+
+------------------------------------------------------------------------
+
+

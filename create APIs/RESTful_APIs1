@@ -1,0 +1,36 @@
+👉 REST API - (Representational State Transfer API)
+
+It is allows communication between systems over HTTP using standard methods like GET, POST, PUT, and DELETE.
+
+
+👉 Key Features :
+
+---   Stateless : Each request is independent.
+---   Client-Server : UI and backend are separate.
+---   Uniform Interface : Consistent endpoints and methods.
+---   Cacheable : Supports caching for faster responses.
+---   Layered System : Intermediaries like load balancers are allowed.
+---   Resource Representation : Data in JSON or XML format.
+
+
+👉 Working Process :
+
+---   Client Request : Sends an HTTP request (GET, POST, etc.) to an endpoint.
+---   Server Processing : Processes the request and interacts with the database.
+---   Response : Server returns data with an HTTP status code.
+
+
+Example :
+
+👉 GET : https://api.example.com/books/1
+
+Response :
+{ "id": 1, "title": "RESTful API", "author": "John Doe" }
+
+
+👉 POST : https://api.example.com/books
+
+Body :
+{ "title": "New Book", "author": "Jane Smith" }
+
+
