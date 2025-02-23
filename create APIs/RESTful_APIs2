@@ -47,3 +47,6 @@ DATABASE      >>>>>>        SERVER          >>>>>>        Response
 
 ------------------------------------------------------------------------
 
+---   RESTful API always follow server-client architecture.
+
+---   Always respect All HTTP methods.
