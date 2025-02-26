@@ -20,17 +20,17 @@ It is allows communication between systems over HTTP using standard methods like
 ---   Response : Server returns data with an HTTP status code.
 
 
-Example :
+-->>   Example :   <<--
 
 👉 GET : https://api.example.com/books/1
 
 Response :
-{ "id": 1, "title": "RESTful API", "author": "John Doe" }
+-->>   { "id": 1, "title": "RESTful API", "author": "John Doe" }
 
 
 👉 POST : https://api.example.com/books
 
-Body :
+-->>   Body :
 { "title": "New Book", "author": "Jane Smith" }
 
 
