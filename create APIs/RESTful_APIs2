@@ -27,7 +27,7 @@ Rule 1: Server-Client Architecture
 This means the server and client are different machines and should not depend on each other.
 
 
----   Example :
+-->>   Example :
 
 ---   A GET request is made to fetch some blogs.
 ---   The server retrieves the blogs from the database.
