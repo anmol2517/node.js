@@ -12,6 +12,7 @@ It is allows communication between systems over HTTP using standard methods like
 ---   Layered System : Intermediaries like load balancers are allowed.
 ---   Resource Representation : Data in JSON or XML format.
 
+------------------------------------------------
 
 👉 Working Process :
 
@@ -19,7 +20,7 @@ It is allows communication between systems over HTTP using standard methods like
 ---   Server Processing : Processes the request and interacts with the database.
 ---   Response : Server returns data with an HTTP status code.
 
-
+------------------------------------------------
 -->>   Example :   <<--
 
 👉 GET : https://api.example.com/books/1
@@ -32,5 +33,3 @@ Response :
 
 -->>   Body :
 { "title": "New Book", "author": "Jane Smith" }
-
-
