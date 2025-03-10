@@ -11,13 +11,13 @@ There are certain rules and standards for this communication, which RESTful APIs
 
 Communication Flow :
 
-------------------------------------------------------------------------
+__________________________________________________________________________
 
 SERVER        >>>>>>        CLIENT        >>>>>>        Response
 
 CLIENT        >>>>>>        SERVER        >>>>>>        Request
 
-------------------------------------------------------------------------
+__________________________________________________________________________
 
 
 Rule 1: Server-Client Architecture
@@ -39,13 +39,13 @@ The HTML document generated is known as SSR (Server-Side Rendering).
 
 ---   Database Interaction Flow:
 
-------------------------------------------------------------------------
+__________________________________________________________________________
 
 SERVER        >>>>>>        DATABASE        >>>>>>        Request
 
 DATABASE      >>>>>>        SERVER          >>>>>>        Response
 
-------------------------------------------------------------------------
+__________________________________________________________________________
 
 ---   RESTful API always follow server-client architecture.
 
