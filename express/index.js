@@ -23,12 +23,14 @@ app.get("/main", (req, res) =>{
 
 
 /*
+
 app.get("/main", (req, res) => {
     console.log(req.query); 
     const name = req.query.name || "Guest";
     const age = req.query.age || "Unknown";
     return res.send(`Hello ${name} or Your Age is ${age}`);
 });
+
 */
 
 app.listen(8011, () => console.log("Server running on port 8011"));    
