@@ -22,5 +22,4 @@ fs.readFileSync("symbol.txt", "utf-8", (err, result1 ) => {
     console.log(result1);
 });
 
-console.log("node.js server");   //  >>  Testing Command Step 
-
+console.log("node.js server");    //  >>  Testing Command Step 
