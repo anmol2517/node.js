@@ -43,8 +43,3 @@ const myServer = http.createServer((req, res) => {
 });
 
 myServer.listen(8007, () => console.log("Server running on port 8007"));
-
-
-const fs = require("fs");
-const url = require("url");const fs = require("fs");
-const url = require("url");
