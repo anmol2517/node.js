@@ -35,11 +35,13 @@ Types of Requests :
    - The Event Loop assigns the request to a worker in the "Thread Pool" (via "libuv") for processing.  
    - After the worker completes the task, the result is returned to the Event Loop and sent to the user.
 
+
 ---
 
 Thread Pool :
    - "libuv", the library that powers Node.js, manages a pool of threads (default size: 4).  
    - These threads handle blocking tasks so the main thread (Event Loop) remains free.
+
 
 ---
 
